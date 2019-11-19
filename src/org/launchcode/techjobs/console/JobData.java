@@ -132,7 +132,7 @@ public class JobData {
         // load data, if not already loaded
         loadData();
 
-        ArrayList<HashMap<String, String>> term = new ArrayList<HashMap<String, String>>();
+        ArrayList<HashMap<String, String>> terms = new ArrayList<HashMap<String, String>>();
 
         for (HashMap<String, String> row : allJobs) {
             for(String item : row.values()){
@@ -144,7 +144,7 @@ public class JobData {
             }
         }
 
-        return term;
+        return terms;
     }
 
 }
